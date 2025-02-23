@@ -1,0 +1,737 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+#hero_div {
+    background-color: #1B1F3B;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+#hero_div h3 {
+    color: #FFD700;
+}
+
+#hero_div #cta-button {
+    background-color: #FFD700;
+    color: #1B1F3B;
+    margin: 10px;
+    
+}
+
+
+.image img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+
+
+.icons {
+    border: 5px solid black;
+
+}
+
+
+
+/* Why This Course Section */
+#why-this-course {
+    background: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#why-this-course h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.why-course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.why-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.why-box:hover {
+    transform: translateY(-5px);
+}
+
+.why-box h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.why-box p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.cta-container {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.primary-btn {
+    background: #007bff;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.primary-btn:hover {
+    background: #0056b3;
+}
+
+.secondary-btn {
+    background: #28a745;
+    color: #fff;
+}
+
+.secondary-btn:hover {
+    background: #218838;
+}
+
+
+
+
+
+/* What You'll Learn Section */
+#what-you-will-learn {
+    background: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#what-you-will-learn h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.learn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.learn-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.learn-box:hover {
+    transform: translateY(-5px);
+}
+
+.learn-box h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.learn-box p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.cta-container {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.primary-btn {
+    background: #007bff;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background: #0056b3;
+}
+
+/* ........................................ */
+
+
+
+/* Who Is This Course For? Section */
+#who-this-course-is-for {
+    background: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#who-this-course-is-for h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.audience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.audience-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.audience-box:hover {
+    transform: translateY(-5px);
+}
+
+.audience-box h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.audience-box p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.cta-container {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.primary-btn {
+    background: #007bff;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background: #0056b3;
+}
+
+
+
+/* Final Call to Action Section */
+#final-cta {
+    Background: linear-gradient(135deg, #2a5298, #1e3c72); /* Futuristic Blue Gradient */
+    Padding: 80px 20px;
+    Text-align: center;
+}
+
+#final-cta h2 {
+    Font-size: 2.5rem;
+    Margin-bottom: 15px;
+    Text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#final-cta p {
+    Font-size: 1.2rem;
+    Margin-bottom: 30px;
+    Opacity: 0.9;
+}
+
+/* CTA Buttons */
+.cta-buttons .btn {
+    Font-size: 1.2rem;
+    Padding: 12px 25px;
+    Margin: 10px;
+    Transition: 0.3s ease-in-out;
+}
+
+.cta-buttons .btn-primary {
+    Background-color: #ff9800; /* Bright orange for action */
+    Border: none;
+}
+
+.cta-buttons .btn-primary:hover {
+    Background-color: #e68900;
+}
+
+.cta-buttons .btn-outline-light:hover {
+    Background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #final-cta h2 {
+        Font-size: 2rem;
+    }
+    
+    #final-cta p {
+        Font-size: 1.1rem;
+    }
+
+    .cta-buttons .btn {
+        Font-size: 1rem;
+        Padding: 10px 20px;
+    }
+}
+
+
+
+/* Hero Section */
+.curriculum-hero {
+    Background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff7e5f); /* Vibrant Gradient */
+    Height: 80vh;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Text-align: center;
+    Padding: 20px;
+}
+
+
+/* Hero Text Styling */
+.curriculum-hero h1 {
+    Font-size: 3rem;
+    Margin-bottom: 15px;
+    Text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.curriculum-hero p {
+    Font-size: 1.2rem;
+    Margin-bottom: 20px;
+}
+
+/* CTA Button */
+.curriculum-hero .btn {
+    Font-size: 1.2rem;
+    Padding: 12px 25px;
+    Transition: 0.3s ease-in-out;
+}
+
+.curriculum-hero .btn-primary {
+    Background-color: #ff9800; /* Bright Orange */
+    Border: none;
+}
+
+.curriculum-hero .btn-primary:hover {
+    Background-color: #e68900;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .curriculum-hero h1 {
+        Font-size: 2.2rem;
+    }
+
+    .curriculum-hero p {
+        Font-size: 1.1rem;
+    }
+
+    .curriculum-hero .btn {
+        Font-size: 1rem;
+        Padding: 10px 20px;
+    }
+}
+
+
+/* Course Modules Section */
+#course-modules {
+    Background: #f8f9fa;
+    Padding: 80px 20px;
+    Text-align: center;
+}
+
+#course-modules h2 {
+    Font-size: 2.5rem;
+    Margin-bottom: 15px;
+    Color: #333;
+}
+
+#course-modules p {
+    Font-size: 1.2rem;
+    Color: #555;
+}
+
+/* Module Cards */
+.module-card {
+    Background: white;
+    Padding: 25px;
+    Border-radius: 10px;
+    Box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    Transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    Text-align: left;
+    Margin-bottom: 20px;
+}
+
+.module-card:hover {
+    Transform: translateY(-5px);
+    Box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.module-card h3 {
+    Font-size: 1.5rem;
+    Color: #007bff;
+}
+
+/* Accordion */
+.accordion-button {
+    Font-size: 1.2rem;
+}
+
+.accordion-body {
+    Font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #course-modules h2 {
+        Font-size: 2rem;
+    }
+    
+    .module-card {
+        Margin-bottom: 20px;
+    }
+}
+
+
+/* Lessons Hero Section */
+.lessons-hero {
+    Background: linear-gradient(135deg, #1e3c72, #2a5298); /* Premium Gradient */
+    Height: 80vh;
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Text-align: center;
+    Padding: 20px;
+}
+
+/* Hero Text Styling */
+.lessons-hero h1 {
+    Font-size: 3rem;
+    Margin-bottom: 15px;
+    Text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.lessons-hero p {
+    Font-size: 1.2rem;
+    Margin-bottom: 20px;
+}
+
+/* CTA Button */
+.lessons-hero .btn {
+    Font-size: 1.2rem;
+    Padding: 12px 25px;
+    Transition: 0.3s ease-in-out;
+}
+
+.lessons-hero .btn-primary {
+    Background-color: #ff9800; /* Bright Orange CTA */
+    Border: none;
+}
+
+.lessons-hero .btn-primary:hover {
+    Background-color: #e68900;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .lessons-hero h1 {
+        Font-size: 2.2rem;
+    }
+
+    .lessons-hero p {
+        Font-size: 1.1rem;
+    }
+
+    .lessons-hero .btn {
+        Font-size: 1rem;
+        Padding: 10px 20px;
+    }
+}
+
+/* Lessons Section */
+#lessons {
+    Background: #f8f9fa;
+    Padding: 80px 20px;
+    Text-align: center;
+}
+
+#lessons h2 {
+    Font-size: 2.5rem;
+    Margin-bottom: 15px;
+    Color: #333;
+}
+
+/* Lesson Cards */
+.lesson-card {
+    Background: white;
+    Padding: 25px;
+    Border-radius: 10px;
+    Box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    Transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    Text-align: center;
+    Margin-bottom: 20px;
+}
+
+.lesson-card:hover {
+    Transform: translateY(-5px);
+    Box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.lesson-card h3 {
+    Font-size: 1.5rem;
+    Color: #007bff;
+}
+
+/* Accordion Button */
+.btn-outline-primary {
+    Font-size: 1.1rem;
+    Padding: 8px 15px;
+    Transition: 0.3s;
+}
+
+.btn-outline-primary:hover {
+    Background-color: #007bff;
+    Color: white;
+}
+
+/* Collapsible Lesson List */
+.collapse ul {
+    List-style: none;
+    Padding: 0;
+}
+
+.collapse ul li {
+    Font-size: 1rem;
+    Padding: 5px 0;
+    Color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #lessons h2 {
+        Font-size: 2rem;
+    }
+
+    .lesson-card {
+        Margin-bottom: 20px;
+    }
+}
+
+/* Lesson Content Section */
+#lesson-content {
+    background: #f8f9fa;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#lesson-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Lesson Box */
+.lesson-box {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.lesson-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.lesson-box h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+}
+
+/* Conclusion Box */
+.conclusion {
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    color: white;
+    text-align: center;
+}
+
+.conclusion h3 {
+    color: #ffcc00;
+}
+
+/* Return Button */
+.text-center .btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    transition: 0.3s ease-in-out;
+}
+
+.text-center .btn-primary {
+    background-color: #ff9800;
+    border: none;
+}
+
+.text-center .btn-primary:hover {
+    background-color: #e68900;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #lesson-content h2 {
+        font-size: 2rem;
+    }
+
+    .lesson-box h3 {
+        font-size: 1.5rem;
+    }
+
+    .text-center .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+
+/* 🔹 Footer Section */
+.footer {
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* New Blue Gradient */
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* 🔹 Footer Title */
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* 🔹 Footer Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: #e0f7ff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+/* 🔹 Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link {
+    color: #e0f7ff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-link:hover {
+    color: #ffffff;
+}
+
+/* 🔹 Copyright */
+.copyright {
+    font-size: 0.9rem;
+    margin-top: 15px;
+    color: #bbdefb;
+}
+
+/* 🔹 Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🔹 Responsive Design */
+@media (max-width: 768px) {
+    .footer-title {
+        font-size: 1.2rem;
+    }
+
+    .social-icons {
+        gap: 10px;
+    }
+
+    .social-link {
+        font-size: 1.2rem;
+    }
+}
+
